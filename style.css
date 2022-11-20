@@ -493,6 +493,8 @@ nav ul li a {
     .hamburger {
         display: block;
         z-index: 50;
+        animation: slideup .5s ease forwards;
+        animation-delay: .1s;
     }
     .links {
         opacity: 0;
@@ -577,5 +579,20 @@ nav ul li a {
     }
     .right-div {
         padding-bottom: 40px;
+    }
+    .input {
+        animation-delay: .2s;
+    }
+    .track1 {
+        animation-delay: .3s;
+    }
+    .track2 {
+        animation-delay: .4s;
+    }
+    .rest-info {
+        animation-delay: .5s;
+    }
+    .right-div {
+        animation-delay: .7s;
     }
 }   
