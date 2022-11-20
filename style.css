@@ -595,4 +595,7 @@ nav ul li a {
     .right-div {
         animation-delay: .7s;
     }
+    .track1-top {
+        gap: 20px;
+    }
 }   
